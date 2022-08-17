@@ -23,7 +23,7 @@ console.log(distanceTravelledInFeet(43,48));
 
 function calculatesFarePrice(start, destination){
   let distance= distanceTravelledInFeet(start,destination);
-  if(distance<=2000){
+  if(distance<=400){
     return 0;
   }else if(distance<2000){
     return (distance -400 )*0.02;
